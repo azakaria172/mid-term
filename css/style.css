@@ -1,5 +1,6 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
+    background-color:rgb(233, 233, 233);
 }
 
 .float-container{
@@ -69,7 +70,8 @@ ul li{
 .green-button {
     background-color: #00b300;
     color: white;
-    border-radius: 10px;
+    border-radius: 25px;
+    padding: 5px 20px 5px 20px;
 }
 
 .container-green {
@@ -80,12 +82,14 @@ ul li{
 
 .div-float-left {
     float:left;
-    padding-left:5em;
+    padding-left:2em;
+    white-space: nowrap;
 }
 
 .div-float-right {
     float:right;
-    padding-right:5em;
+    padding-right:2em;
+    white-space: nowrap;
 }
 
 .img-illustration {
@@ -96,7 +100,8 @@ ul li{
 .feature-columns {
     float: left;
     width: 22%;
-    padding: 15px;
+    /* padding: 15px; */
+    margin: 10px;
     text-align: center;
     align-content: center;
     background-color: #e6ffe673;
@@ -109,7 +114,7 @@ ul li{
 
 .features-section {
     padding-top: 20px;
-    padding-bottom: 40px;
+    padding-bottom: 200px;
 }
 
 .box-shadow {
@@ -118,22 +123,55 @@ ul li{
 
 .courses-section {
     padding-top: 40px;
-    text-align: center;
+    /* text-align: center; */
 }
 .courses-columns {
     float: left;
-    width: 33.3%;
-    padding: 0px;
-    text-align: center;
-    align-content: center;
+    width: 30.3%;
+    padding: 10px;
+    margin: 10px;
+    /* text-align: center; */
+    /* align-content: center; */
+    background-color: white;
 }
 
 .courses-icons {
-    width:160px;
+    width:300px;
+    height:auto;
+    padding-left:3em;
+}
+
+.courses-mini-icons {
+    width:30px;
     height:auto;
 }
 
 .testimonial-section{
-    padding-top: 20px;
+    padding-top: 450px;
+    padding-bottom: 50px;
     text-align: center;
 }
+
+.testimonials {
+    display: flex;
+    padding: 0em 20em 0em 20em;
+}
+
+
+
+#footer {
+    display: flex;
+    background-color:rgba(0, 0, 0, 0.85);
+    color:white;
+}
+
+#footer div {
+    padding: 50px;
+}
+
+.footer-ul li {
+    display: block;
+    float: center;
+    font-size: medium;
+}
+
